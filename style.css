@@ -1,0 +1,70 @@
+body {
+  min-height: 98vh;
+  color: white;
+}
+
+.menu-section {
+  margin-top: 0px;
+  background-color: rgba(203, 240, 199, 0.639);
+  width: 100%;
+  /* height: 800px; */
+}
+
+#employeePage {
+  margin: 20px;
+}
+.content-section {
+  margin: 0px;
+  padding: 5px;
+  /* border: 10px; */
+  background-color: white;
+  background-image: url('/img/back.jpg');
+  background-size: cover;
+  background-color: rgba(51, 30, 30, 0.1);
+  background-blend-mode: luminosity;
+  width: 100%;
+  /* height: 800px; */
+}
+.opaque {
+  background-color: rgba(94, 17, 17, 0.7);
+}
+
+.btn {
+  margin: 0px;
+  width: 90px;
+  padding: 0px;
+  /* left: 2px; */
+}
+
+.title-text {
+  margin-top: 180px;
+  color: white;
+  display: block;
+  z-index: 100;
+}
+
+.input {
+  display: none;
+  /* visibility: visible; */
+}
+#employee-result {
+  position: relative;
+  left: 20px;
+  top: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  min-height: 98vh;
+}
+input,
+input:focus {
+  background-color: black;
+  color: white;
+}
+
+.card-panel {
+  /* margin: 4px; */
+}

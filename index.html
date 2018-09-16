@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="group">
+    <div class="row flex container">
+      <div class="col s12 m2 l2 card-panel menu-section brown">
+        <br />
+        <br />
+        <div class="center-align"><i class="material-icons medium">contacts</i></div>
+
+        <div class="center-align center-align ">
+          <a id="home-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">Simplicity</a>
+        </div>
+        <div class="center-align">
+          <a id="print-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">print</a>
+        </div>
+        <div class="center-align button-menu">
+          <a id="verify-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">verify</a></div>
+        <div class="center-align button-menu">
+          <a id="lookup-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">lookup</a></div>
+        <div class="center-align button-menu">
+          <a id="contains-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">contains</a></div>
+        <div class="center-align button-menu">
+          <a id="update-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">update</a></div>
+        <div class="center-align button-menu">
+          <a id="add-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">add</a></div>
+        <div class="center-align button-menu">
+          <a id="delete-menu-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn">delete</a></div>
+      </div>
+
+      <div class="col s12 m10 l10 card-panel content-section" id="content">
+
+        <div id="title-text" class="center-align title-text">
+          <h1>WELCOME TO SIMPLICITY</h1>
+          <h3>The minimalist directory</h3>
+        </div>
+
+        <section id="employeePage">
+          <form>
+            <div id="input-name" class="input row">Name:
+              <input id="input-name-field" type="text" name="firstname" value="" />
+            </div>
+            <div id="input-officeNum" class='input row'>Offic Number:
+              <input id="input-office-field" type="text" name="officenumber" value="" /><br />
+            </div>
+            <div id="input-phoneNum" class="input row">Phone Number:
+              <input id="input-phone-field" type="text" name="phonenumber" value="" /><br />
+            </div>
+
+            <a id="input-btn" class="button brown waves-effect waves-light btn-flat btn-large white-text btn input"><i
+                class="material-icons large center">find_in_page</i></a>
+          </form>
+
+        </section>
+
+
+        <section id="employee-result" class="row">
+          <!-- Display result from empoyee search -->
+        </section>
+
+      </div>
+    </div>
+
+
+    <script src='./dom.js'></script>
+    <script src='./util.js'></script>
+    <script src='./app.js'></script>
+
+</body>
+
+</html>
